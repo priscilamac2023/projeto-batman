@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display=swap');
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    background-image: url('./1289452.jpg');
+    background-repeat: no-repeat;
+
+}
+input[type=radio]{
+    display: none;
+}
+.card{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
+
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+  
+a {
+  color: #fff;
+  font-size: 18px;
+}
+
+a:hover{
+    color: #ccff54;
+    transition: .1s;
+  
+}
+.image {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 450px;
+    flex-flow:  row nowrap;
+    gap: 10px;
+    animation: slide 20s infinite ease-in-out;
+
+}
+.item :current{
+    display: flex;
+    width: 900px;
+    height: auto;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7) ;
+}
+#item1{
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+.gallery-wrapper {
+   width: 100%;
+   height: auto;
+   overflow: hidden;
+   flex-flow:  row nowrap;
+}
+
+
+.arrow-left,.arrow-right {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    line-height: 250px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    
+
+}
+
+.arrow-right{
+  
+    right: 0;
+    left: auto;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.arrow-left :hover{
+    opacity: 1;
+}
+
+@keyframes slide{
+    0%{ left: 0px;}
+
+    9%{left: -800px;}
+
+    18%{left: -1600px;}
+
+    27%{left: -2462px;}
+
+    36%{left: -3263px;}
+
+    45%{left: -4110px;}
+
+    54%{left: -5010px;}
+
+    63%{left: -5830px;}
+
+    72%{left: -6740px;}
+
+    81%{left: -7560px;}
+
+    89%{left: -8360px;}
+
+
+}
+
+#logo {
+    width: 170px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li {
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "kdam Thmor Pro", sans-serif;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+span {
+    color: black;
+    font-family: "kdam Thmor Pro", sans-serif;
+    font-size: 12px;
+   
+}
+  
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.footer-navigation {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .footer-navigation {
+       display: block;
+       flex-direction: column;
+       line-height: 30px;
+    } 
+    
+    nav {
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        
+    }
+
+    a {
+        color: #070707;
+        font-size: 18px;
+    }
+      
+      a:hover{
+          color: #ccff54;
+          transition: .1s;
+        
+    }
+
+    .image {
+        position: relative;
+        display: flex;
+        width: 80%;
+        height: 450px;
+        flex-flow:  row nowrap;
+        gap: 10px;
+        animation: slide 20s infinite ease-in-out;
+    
+    }
+
+    .container {
+        position: relative;
+        width: 80%;
+        margin: 100px 70px;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
+    
+    }
+}  

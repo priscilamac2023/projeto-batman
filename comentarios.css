@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display=swap');
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+body{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-image: url('./robert-pattinson-in-the-batman-2022_1220x2160_xtrafondos.com.jpg');
+    background-repeat: no-repeat;
+
+}
+
+.form{
+    width: 80vw;
+    margin: 3px;
+    margin-top: 10px;
+    font-family: "kdam Thmor Pro", sans-serif;
+    font-size: 16px;
+    color: white;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+label{
+    font-family:"kdam Thmor Pro", sans-serif;
+    font-size: 12px;
+    color: #fff;
+    align-items: center;
+}
+  
+input{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 3px 4px;
+    outline: unset;
+    border-radius: 5px 5px 5px 5px;
+}
+
+textarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    padding: auto;
+    font-size: 16px;
+    color: black;
+    outline: unset;
+    height: 120px;
+    align-items: center;
+}
+  
+button {
+    width: 400px;
+    background-color: #3a3df7;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 20px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+  
+button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+h3{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "kdam Thmor Pro", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    background-color: rgba(39, 39, 39, 0.623);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.container{
+    width: 650px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family:"kdam Thmor Pro", sans-serif;
+    font-size: 12px;
+    background-color: rgba(39, 39, 39, 0.623);
+    border-radius: 0px 0px 20px 20px;
+  
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+  
+a {
+  color: #fff;
+  font-size: 18px;
+}
+
+a:hover{
+    color: #000;
+    transition: .1s;
+  
+}
+
+#logo {
+    width: 170px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li {
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "kdam Thmor Pro", sans-serif;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+span {
+    color: #fff;
+    font-family: "kdam Thmor Pro", sans-serif;
+    font-size: 12px;
+   
+}
+  
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.footer-navigation {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-navigation {
+    display: block;
+    flex-direction: column;
+    line-height: 30px;
+} 
+    
+nav {
+    display: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+        
+}
+
+ 
+}  
