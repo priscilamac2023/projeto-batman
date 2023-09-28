@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 * 
 {
@@ -18,9 +18,6 @@ body{
     background-image: url('./1289452.jpg');
     background-repeat: no-repeat;
 
-}
-input[type=radio]{
-    display: none;
 }
 .card{
     position: absolute;
@@ -71,7 +68,7 @@ a:hover{
     animation: slide 20s infinite ease-in-out;
 
 }
-.item :current{
+.item:current{
     display: flex;
     width: 900px;
     height: auto;
