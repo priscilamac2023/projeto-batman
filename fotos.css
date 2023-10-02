@@ -120,25 +120,25 @@ a:hover{
 @keyframes slide{
     0%{ left: 0px;}
 
-    9%{left: -800px;}
+    10%{left: -800px;}
 
-    18%{left: -1600px;}
+    20%{left: -1600px;}
 
-    27%{left: -2462px;}
+    30%{left: -2462px;}
 
-    36%{left: -3263px;}
+    40%{left: -3263px;}
 
-    45%{left: -4110px;}
+    50%{left: -4110px;}
 
-    54%{left: -5010px;}
+    60%{left: -5010px;}
 
-    63%{left: -5830px;}
+    70%{left: -5830px;}
 
-    72%{left: -6740px;}
+    80%{left: -6740px;}
 
-    81%{left: -7560px;}
+    90%{left: -7560px;}
 
-    89%{left: -8360px;}
+    100%{left: -8360px;}
 
 
 }
