@@ -10,7 +10,7 @@
 }
 
 body{
-    width: 100%;
+    background-size:  auto 100vh;
     display: flex;
     background-color: black;
     flex-direction: column;
