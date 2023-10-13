@@ -51,9 +51,9 @@ input{
     border-radius: 5px 5px 5px 5px;
 }
 
-textarea{
+textarea {
     width: 50vw;
-    margin: 10px 0 0 5px;
+    margin: 10px 0px 0px 5px;
     padding: auto;
     font-size: 16px;
     color: black;
@@ -200,7 +200,7 @@ h3{
 textarea{
 
     width: 60vw;
-    margin-top: 10px;
+    margin: 10px 0 0 5px;
     padding: auto;
     font-size: 16px;
     color: black;
