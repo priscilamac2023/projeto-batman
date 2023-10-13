@@ -199,6 +199,18 @@ h3{
     flex-direction: column;
 }
 
+textarea{
+
+    width: 60vw;
+    margin-top: 10px;
+    padding: auto;
+    font-size: 16px;
+    color: black;
+    outline: unset;
+    height: 120px;
+    align-items: center;
+}
+
 .footer-navigation {
     display: block;
     flex-direction: column;
