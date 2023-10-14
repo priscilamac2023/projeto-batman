@@ -155,6 +155,11 @@ li {
     font-family: "kdam Thmor Pro", sans-serif;
 }
 
+img#logo-footer{
+    width: 20vw;
+    height: auto;
+}
+
 footer {
     height: 300px;
     margin-top: 50px;
