@@ -127,20 +127,17 @@ nav {
 }
   
 a {
-  color: #fff;
-  font-size: 18px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 18px;
 }
 
 a:hover{
     color: #000;
     transition: .1s;
   
-}
-
-img#logo-header,
-logo-footer {
-    width: 170px;
-    height: auto;
 }
 
 ul {
