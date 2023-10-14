@@ -11,7 +11,7 @@
 
 body{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     background-color: black;
     flex-direction: column;
@@ -20,6 +20,11 @@ body{
     background-image: url('./robert-pattinson-in-the-batman-2022_1220x2160_xtrafondos.com.jpg');
     background-repeat: no-repeat;
 
+}
+
+img#logo-header{
+    width: 150px;
+    height: auto;
 }
 
 
@@ -156,7 +161,7 @@ li {
 }
 
 img#logo-footer{
-    width: 20vw;
+    width: 150px;
     height: auto;
 }
 
