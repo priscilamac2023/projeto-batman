@@ -21,6 +21,11 @@ body{
     background-repeat: no-repeat;
 
 }
+ img#logo-header, 
+ #logo-footer {
+    width: 30vw;
+    height: auto;
+ }
 
 .form{
     width: 70vw;
