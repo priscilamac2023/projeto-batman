@@ -21,11 +21,7 @@ body{
     background-repeat: no-repeat;
 
 }
- img#logo-header, 
- #logo-footer {
-    width: 30vw;
-    height: auto;
- }
+
 
 .form{
     width: 70vw;
@@ -141,7 +137,8 @@ a:hover{
   
 }
 
-#logo {
+img#logo-header,
+logo-footer {
     width: 170px;
     height: auto;
 }
