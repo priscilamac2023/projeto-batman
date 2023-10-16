@@ -119,17 +119,16 @@ input{
 }
 
 form {
-  width: 80vw;
-  margin: 3px;
-  margin-top: 10px;
-  font-family: "kdam Thmor Pro", sans-serif;
-  font-size: 16px;
-  color: white;
-  height: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  }
+    width: 70vw;
+    height: auto;
+    display: flex;
+    margin: 3px;
+    font-family: "kdam Thmor Pro", sans-serif;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
 
 textarea {
   display: flex;
