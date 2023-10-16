@@ -127,16 +127,14 @@ form {
 }
 
 textarea {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 10px;
-  padding: auto;
-  font-size: 16px;
-  color: black;
-  outline: unset;
-  height: 120px;
-  align-items: center;
+    width: 50vw;
+    margin: 10px 0px 0px 5px;
+    padding: auto;
+    font-size: 16px;
+    color: black;
+    outline: unset;
+    height: 120px;
+    align-items: center;
 }
 
 button {
