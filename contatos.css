@@ -90,6 +90,10 @@ li {
   font-family: "kdam Thmor Pro", sans-serif;
 }
 
+img#logo-footer {
+    width: 150px;
+    height: auto;
+}
 
 .content {
   display:flex;
