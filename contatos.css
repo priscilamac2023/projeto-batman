@@ -18,6 +18,11 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 }
 
+img#logo-header {
+    width: 150px;
+    height: auto;
+}
+
 .container {
   width: 650px;
   height: 430px;
