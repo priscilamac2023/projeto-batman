@@ -15,6 +15,10 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+img#logo-header {
+    width: 150px;
+    height: auto;
+}
 
 nav {
   width: 60%;
