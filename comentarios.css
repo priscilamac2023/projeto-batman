@@ -27,6 +27,21 @@ img#logo-header {
     height: auto;
 }
 
+
+.form {
+    width: 70vw;
+    height: 120px;
+    display: flex;
+    margin: 3px;
+    margin-top: 10px;
+    font-family: "kdam Thmor Pro", sans-serif;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 label {
     font-family:"kdam Thmor Pro", sans-serif;
     font-size: 12px;
@@ -94,7 +109,6 @@ h3 {
 
 .container {
     width: 70vw;
-    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -103,10 +117,6 @@ h3 {
     font-size: 12px;
     background-color: rgba(39, 39, 39, 0.623);
     border-radius: 0px 0px 20px 20px;
-    margin: 3px;
-    margin-top: 10px;
-    color: white;
-    
   
 }
 
@@ -130,7 +140,7 @@ a {
     font-size: 18px;
 }
 
-a:hover {
+a:hover{
     color: #000;
     transition: .1s;
   
@@ -198,19 +208,18 @@ h3{
     flex-direction: column;
 }
 
-.form{
+.form {
     width: 70vw;
-    margin: 3px;
+    display: flex;
     margin: 10px 0 0 80px;
     font-family: "kdam Thmor Pro", sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-textarea{
+textarea {
 
     width: 60vw;
     margin: 10px 0 0 5px;
@@ -233,7 +242,7 @@ nav {
     display: none;
 }
 
-ul{
+ul {
     display: flex;
     flex-direction: column;
     align-items: center;
