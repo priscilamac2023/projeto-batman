@@ -28,7 +28,7 @@ img#logo-header {
 }
 
 
-.form {
+form {
     width: 70vw;
     height: auto;
     display: flex;
@@ -207,7 +207,7 @@ h3 {
     flex-direction: column;
 }
 
-.form {
+form {
     width: 70vw;
     display: flex;
     margin: 10px 0 0 80px;
