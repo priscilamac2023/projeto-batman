@@ -210,7 +210,6 @@ h3 {
 form {
     width: 70vw;
     display: flex;
-    margin: 10px 0 0 80px;
     font-family: "kdam Thmor Pro", sans-serif;
     font-size: 12px;
     color: white;
@@ -222,7 +221,6 @@ textarea {
 
     width: 60vw;
     margin: 10px 0 0 5px;
-    margin-left: 80px;
     padding: auto;
     font-size: 16px;
     color: black;
