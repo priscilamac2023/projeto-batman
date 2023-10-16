@@ -50,11 +50,6 @@ li {
   font-family: "kdam Thmor Pro", sans-serif;
 }
 
-#logo {
-  width: 170px;
-  height: auto;
-}
-
 #banner {
   background-image: url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large');
   background-position: 50% 50%;
@@ -193,6 +188,10 @@ span {
   display: none;
 }
 
+img#logo-footer {
+    width: 150px;
+    height: auto;
+}
 
 
 @media (max-width: 768px) {
