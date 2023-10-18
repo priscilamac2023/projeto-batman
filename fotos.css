@@ -23,7 +23,7 @@ img#logo-header {
     width: 150px;
     height: auto;
 }
-.card{
+.cards {
     position: absolute;
     width: 60%;
     height: 100%;
@@ -62,16 +62,6 @@ a:hover{
     color: #ccff54;
     transition: .1s;
   
-}
-.image {
-    position: relative;
-    display: flex;
-    width: 80%;
-    height: 450px;
-    flex-flow:  row nowrap;
-    gap: 10px;
-    animation: slide 20s infinite ease-in-out;
-
 }
 
 img#logo-footer {
@@ -148,17 +138,6 @@ span {
           color: #ccff54;
           transition: .1s;
         
-    }
-
-    .image {
-        position: relative;
-        display: flex;
-        width: 80%;
-        height: 450px;
-        flex-flow:  row nowrap;
-        gap: 10px;
-        animation: slide 20s infinite ease-in-out;
-    
     }
 
     .container {
