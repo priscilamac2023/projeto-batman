@@ -76,32 +76,6 @@ a:hover{
 
 }
 
-@keyframes slide{
-    0%{ left: 0px;}
-
-    10%{left: -800px;}
-
-    20%{left: -1600px;}
-
-    30%{left: -2462px;}
-
-    40%{left: -3263px;}
-
-    50%{left: -4110px;}
-
-    60%{left: -5010px;}
-
-    70%{left: -5830px;}
-
-    80%{left: -6740px;}
-
-    90%{left: -7560px;}
-
-    100%{left: -8360px;}
-
-
-}
-
 img#logo-footer {
     width: 150px;
     height: auto;
