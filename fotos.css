@@ -166,7 +166,8 @@ span {
     .container {
         position: relative;
         width: 80%;
-        margin: 100px 70px;
+      height:40vh;
+      transform: translate(-50%)
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
     
     }
