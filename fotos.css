@@ -34,7 +34,7 @@ img#logo-header {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
 }
 
-.slide {
+.slider {
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -68,6 +68,12 @@ a:hover{
     transition: .1s;
   
 }
+
+.navigation-bar{
+  position: absolute;
+  botton: 20px;
+  left: 50%;
+  transform: translate(-50%);
 
 img#logo-footer {
     width: 150px;
