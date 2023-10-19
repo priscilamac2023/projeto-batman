@@ -23,22 +23,20 @@ img#logo-header {
     width: 150px;
     height: auto;
 }
-.cards {
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
 
 .container{
-    width: 80vw;
-    height: 80vh;
+    width: 90vw;
+    height: 60vh;
     overflow: hidden;
     position: absolute;
     transform: translate(-50% -50%);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
+}
+
+.slide {
+  display: flex;
+  width: 90vw;
+  height: 6ovh;
 }
 
 header {
