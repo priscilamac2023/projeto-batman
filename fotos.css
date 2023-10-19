@@ -26,17 +26,18 @@ img#logo-header {
 
 .container{
     width: 90vw;
-    height: 60vh;
+    height: 80vh;
     overflow: hidden;
     position: absolute;
+    margin: 10px 50px 30px;
     transform: translate(-50% -50%);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
 }
 
 .slide {
   display: flex;
-  width: 90vw;
-  height: 60vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 header {
