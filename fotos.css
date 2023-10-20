@@ -27,6 +27,7 @@ img#logo-header {
     display: flex;
     width: 90vw;
     height: 80vh;
+    margin-left: 70px;
     overflow: hidden;
     position: absolute;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
@@ -127,8 +128,8 @@ span {
 @media (max-width: 768px) {
   
   .container{
-    width: 90vw;
-    height: 80vh;
+    width: 80vw;
+    height: 60vh;
     overflow: hidden;
     position: absolute;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
