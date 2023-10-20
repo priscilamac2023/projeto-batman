@@ -46,11 +46,11 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-.img {
+
+img {
   widht: 100vw;
   height:100vh;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 nav {
@@ -126,13 +126,11 @@ span {
 }
 
 @media (max-width: 768px) {
-  
-  .container{
-    width: 80vw;
-    height: 60vh;
-    overflow: hidden;
-    position: absolute;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
+
+
+  header {
+    display: none;
+  }
 
     .footer-navigation {
        display: block;
