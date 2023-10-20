@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     align-items: center;
@@ -24,17 +24,17 @@ img#logo-header {
     height: auto;
 }
 
-.container{
+.container {
+    display: flex;
     width: 90vw;
     height: 80vh;
     overflow: hidden;
     position: absolute;
-    margin: 10px 50px 30px;
     transform: translate(-50% -50%);
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
 }
 
-.slider {
+.slide {
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -122,6 +122,14 @@ span {
 }
 
 @media (max-width: 768px) {
+  
+  .container{
+    width: 90vw;
+    height: 80vh;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50% -50%);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
 
     .footer-navigation {
        display: block;
