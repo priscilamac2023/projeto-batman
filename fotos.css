@@ -35,10 +35,20 @@ img#logo-header {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
 }
 
-.slide {
+.slides {
   display: flex;
-  width: 100vw;
+  width: 1100%;
   height: 100vh;
+}
+
+.slide {
+  width: 10%;
+  transition: .6s;
+}
+
+.slide img {
+  width:100%;
+  height:100%;
 }
 
 header {
@@ -47,6 +57,19 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.bar {
+  width: 70px;
+  height: 17px;
+  border: 2px solid #fff;
+  margin: 6px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .6s;
+}
+.bar: hover {
+  background-color: #fff;
 }
 
 img {
@@ -77,10 +100,6 @@ a:hover {
   left: 50%;
   transform: translate(-50%);
   display: flex;
-}
-
-label {
-  cursor: pointer;
 }
 
 input {
@@ -139,6 +158,11 @@ span {
   header {
     display: none;
   }
+
+  img#logo-header {
+    width: 150px;
+    height: auto;
+}
 
     .footer-navigation {
        display: block;
