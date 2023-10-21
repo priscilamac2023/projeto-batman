@@ -68,14 +68,17 @@ a:hover {
   
 }
 
-.navigation-bar label {
+.navigation-bar  {
   position: absolute;
   botton: 20px;
   left: 50%;
-  cursor: pointer;
   transform: translate(-50%);
 }
 
+label {
+  display: flex;
+  cursor: pointer;
+}
 input {
   display:none;
 }
