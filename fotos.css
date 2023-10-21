@@ -68,10 +68,11 @@ a:hover {
   
 }
 
-.navigation-bar {
+.navigation-bar label {
   position: absolute;
   botton: 20px;
   left: 50%;
+  cursor: pointer;
   transform: translate(-50%);
 }
 
