@@ -69,15 +69,12 @@ a:hover {
 }
 
 .navigation-bar  {
+  width: 70vw;
   position: absolute;
   botton: 20px;
   left: 50%;
-  transform: translate(-50%);
-}
-
-label {
-  display: flex;
   cursor: pointer;
+  transform: translate(-50%);
 }
 input {
   display:none;
