@@ -13,9 +13,12 @@ body {
     width: 100vw;
     height: 100vh;
     align-items: center;
+
+
     justify-content: center;
     background-image: url('./1289452.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img#logo-header {
@@ -27,29 +30,25 @@ img#logo-header {
     display: flex;
     width: 90vw;
     height: 80vh;
+    margin-left: 70px;
     overflow: hidden;
     position: absolute;
-  top: 50%;
-  left: 50%
-    transform: translate (-50%, -50%)
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
 }
 
-.slides {
-  display: flex;
-  width: 1100%;
-  height: 100vh;
-}
-
 .slide {
-  width: 10%;
-  transition: .6s;
+  display: flex;
+  width: 100vw;
+
+  height: 100vh;
+  transition: transform 0.5s;
 }
 
 .slide img {
-  width:100%;
-  height:100%;
-}
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Certifique-se de que as imagens preencham o espaço */
+  }
 
 header {
     width: 100%;
@@ -59,21 +58,8 @@ header {
     align-items: center;
 }
 
-.bar {
-  width: 70px;
-  height: 17px;
-  border: 2px solid #fff;
-  margin: 6px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: .6s;
-}
-.bar: hover {
-  background-color: #fff;
-}
-
 img {
-  widht: 100vw;
+  width: 100vw;
   height:100vh;
   justify-content: center;  
 }
@@ -93,17 +79,36 @@ a:hover {
   
 }
 
-.navigation-bar  {
+.navigation-bar {
   width: 70vw;
   position: absolute;
-  bottom: 150px;
+  bottom: 20px;
   left: 50%;
   transform: translate(-50%);
-  display: flex;
+}
+
+label {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+
+    background: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    transition: 0.3s;
 }
 
 input {
   display:none;
+}
+
+input:checked + .slide {
+  transform: translateX(0);
+}
+
+label:hover {
+  background: #555;
 }
 
 img#logo-footer {
@@ -159,11 +164,6 @@ span {
     display: none;
   }
 
-  img#logo-header {
-    width: 150px;
-    height: auto;
-}
-
     .footer-navigation {
        display: block;
        flex-direction: column;
@@ -199,4 +199,4 @@ span {
       box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
     
     }
-}  
+}   
