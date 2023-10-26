@@ -132,8 +132,11 @@ li {
 }
 
 footer {
-    height: 300px;
-    margin-top: 50px;
+  
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
