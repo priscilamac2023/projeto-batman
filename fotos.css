@@ -200,4 +200,12 @@ span {
       box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7) ;
     
     }
+
+    .slides {
+      flex-direction: column;
+    }
+
+    .slide {
+      flex: 0 0 100%;
+    }
 }   
