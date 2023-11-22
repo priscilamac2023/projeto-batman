@@ -24,7 +24,7 @@ img#logo-header {
 }
 
 .container {
-  width: 650px;
+  width: 50vw;
   height: 430px;
   margin-left: 250px;
   display: flex;
@@ -48,7 +48,7 @@ header {
 }
 
 h3 {
-  width: 650px;
+  width: 50vw;
   display: flex;
   margin-left: 250px;
   flex-direction: column;
@@ -112,7 +112,7 @@ label {
 input {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 40vw;
     padding: 3px 4px;
     outline: unset;
     border-radius: 5px 5px 5px 5px;
@@ -131,7 +131,7 @@ form {
 }
 
 textarea {
-    width: 50vw;
+    width: 40vw;
     margin: 10px 0px 0px 5px;
     padding: auto;
     font-size: 16px;
@@ -142,7 +142,7 @@ textarea {
 }
 
 button {
-  width: 50vw;
+  width: 40vw;
   height: 60px;
   background-color: #3a3df7;
   color: #fff;
